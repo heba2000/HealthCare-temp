@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+/*Home page*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top-menu a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 700;   
+}
+.logo a {
+    color: #3c97e8;
+}
+.logo span{
+    color: #9bdf46;
+}
+.icon i {
+color: #fff;
+background-color:#9bdf46; 
+border-radius: 50%;
+padding: 15px 15px; 
+font-size:14px;     
+}
+.location1 a {
+    color: black;
+    font-size: 16px; 
+    font-weight: 300;
+}
+@media only screen and (max-width:972px) {
+  .location1{
+    display: none!important;
+  }
+    .nav-menue button{
+       position: absolute;
+        top: 60px;
+        right: 5px;
+    }
+}
+
+.menu1 ul li a {
+color: black !important;
+font-size: 18px; 
+font-weight:400;
+padding:10px 15px !important; 
+}
+.active{
+ color: #9bdf46; !important   
+}
+
+.nav-link:hover{
+color:#9bdf46;
+}
+/*Doctors Page*/
+
+.piso1{
+  position: relative;
+}
+
+.piso1-layer{ 
+    background: linear-gradient(to right,white 0%,white 30%,rgba(255,255,255,0)75%, rgba(255,255,255,0)100%); 
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    position: absolute;
+}
+
+.piso2-layer{
+    background: linear-gradient(to bottom,white 0%, rgba(255,255,255,0)100%); 
+    top:0px;
+    right:0px;
+    left:0px;
+    height: 150px;
+    position: absolute;
+} 
+.piso1-content h1 strong {
+ color: #3c97e8;   
+}
+.piso1-content h4
+{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.btn-link{
+    font-weight:500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.accordion .card {
+    border:1px solid #e6e6e6 !important;
+}
+.card-header{
+ background-color: #fff;
+}
+#headingOne {
+background-color: #3c97e8;  
+}
+#headingOne button {
+    color:#fff; 
+}
+.btn-link:hover{
+text-decoration:none;
+color: black;
+}
+.btn-link{
+text-align: left;
+}
+.docs-cards .card{
+border:none;  
+box-shadow: 0px 11px 40px -13px rgba(0, 0, 0, 0.14);    
+}
+   
+.nav-link{
+margin: 0px;
+padding: 0px;
+}
+.nav-new i{
+margin: 8px;    
+border:1px solid #f2f2f2; 
+color: #cccccc;  
+border-radius: 50%;
+padding: 10px 10px; 
+font-size:18px;     
+}
+
+/*SCROLL TO TOP BUTTON*/
+#myBtn {
+background: #9bdf46;
+color: #fff;    
+  display:none;
+  position:fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 99;
+  font-size:18px;
+  border-radius:50%;
+  border: none;    
+  padding: 15px;
+transition: all 2s;
+}
+
+
+/*contact-information*/
+
+.text-gray
+{
+    color: #666666;
+   
+}
+.contact-info i
+{
+    color: #3c97e8;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.contact-info a
+{
+    text-decoration: none;
+    color:#3c97e8; 
+}
+
+/*get-in touch*/
+
+.btn-primary
+{
+    background-color: #9bdf46;
+    color: white;
+    border: 2px solid #9bdf46;
+    padding: 8px 20px;
+}
+.get-it .form-control
+{
+   background-color:#fff;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    
+
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #282e34;
+    margin-top: 100px;
+}
+footer .nav-item{
+padding: 10px;        
+}
+footer .nav-item a {
+color: #ffff;   
+font-size: 16px;
+font-weight:600;    
+}
+footer .nav-item .nav-link i {
+color:#3c97e8;    
+}
+footer .form-control-lg ,.form-control{
+font-size: 1rem;
+padding: .5rem 1.8rem;
+background-color: rgba(0,0,0,0.5);
+border: none;
+color: #cccc;
+}

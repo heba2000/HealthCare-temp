@@ -1,0 +1,193 @@
+*{
+  margin: 0 px;
+  padding: 0 px;
+}
+/*HEADER*/
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.top-menu a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 700;   
+}
+.logo a {
+    color: #3c97e8;
+}
+.logo span{
+    color: #9bdf46;
+}
+.icon i {
+color: #fff;
+background-color:#9bdf46; 
+border-radius: 50%;
+padding: 15px 15px; 
+font-size:14px;     
+}
+.location1 a {
+    color: black;
+    font-size: 16px; 
+    font-weight: 300;
+}
+@media only screen and (max-width:972px) {
+  .location1{
+    display: none!important;
+  }
+    .nav-menue button{
+       position: absolute;
+        top: 60px;
+        right: 5px;
+    }
+}
+
+.menu1 ul li .nav-link {
+color: black !important;
+font-size: 18px; 
+font-weight:400;
+padding:10px 15px !important; 
+}
+.active{
+ color: #9bdf46; !important   
+}
+
+.nav-link:hover{
+color:#9bdf46;
+}
+.dropdown-menu{
+    background:#282e34;
+}
+.dropdown-item{
+color: #fff !important;
+}
+.dropdown-item:hover{
+    background: #282e34;
+    color: #fff !important;
+}
+.piso1{
+  position: relative;
+}
+
+.piso1-layer{ 
+    background: linear-gradient(to right,white 0%,white 30%,rgba(255,255,255,0)75%, rgba(255,255,255,0)100%); 
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    position: absolute;
+}
+.piso2-layer{
+    background: linear-gradient(to bottom,white 0%, rgba(255,255,255,0)100%); 
+    top:0px;
+    right:0px;
+    left:0px;
+    height: 150px;
+    position: absolute;
+} 
+.piso1-content h1 strong {
+ color: #3c97e8;   
+}
+.piso1-content h4
+{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+
+.title{
+  text-align: center;
+  padding: 50px;
+  font-family: sans-serif;
+}
+.title p{
+  color:grey;
+}
+#h1{
+  color:#3D97E8;
+}
+#h6{
+  color:grey;
+}
+.p_doc{
+  color:grey;
+  font-family: sans-serif;
+}
+#img{
+  width:600px;
+  height:650px;
+  padding-top: 50px;
+}
+#dept_doc{
+  padding-top: 100px;
+}
+#email_us_btn{
+  border-radius: 80px;
+   padding :5px;
+   width:100px;
+  font-family: sans-serif;
+  color:white;
+   background-color: #9BDF46;
+  border-color: #9BDF46;
+  font-weight: bold;
+}
+#make_appoint_btn{
+  border-radius: 80px;
+   padding :5px;
+   width:200px;
+  font-family: sans-serif;
+  color: #9BDF46;
+   background-color:white;
+  border-color: #9BDF46;
+  font-weight: bold;
+}
+.cards{
+  width:100%;
+ margin-right: 50px;
+ margin-bottom: 10px;
+height:60px;
+background-color:#FAFAFA ;
+padding:15px;
+}
+.price{
+  float: right;
+  color:#3C97E8;
+
+}
+.cards:hover{
+  background-color:#9BDF46;
+  color:#FAFAFA;
+transition: 1s;    
+}
+.cards:hover .price {
+  color:#FAFAFA;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #282e34;
+}
+footer .nav-item{
+padding: 10px;        
+}
+footer .nav-item a {
+color: #ffff;    
+font-size: 16px;
+font-weight:600;    
+}
+footer .nav-item .nav-link i {
+color:#3c97e8;    
+}
+footer .form-control-lg ,.form-control{
+font-size: 1rem;
+padding: .5rem 1.8rem;
+background-color: rgba(0,0,0,0.5);
+border: none;
+color: #cccc;
+}

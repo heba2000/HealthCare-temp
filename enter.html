@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index-style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css"/>
+    <title>Login</title>
+    <style>
+    body{
+      background-image: url('images/img_bg_2.jpg');
+      background-size:cover;
+    }
+    .card{
+      width:400px;
+      height:350px;
+      margin-top: 150px;
+      /* margin-left: 450px; */
+    }
+    h1{
+      color:#3D97E8;
+      text-align: center;
+    }
+    input{
+      margin-top: 30px;
+    }
+    input[type="text"]{
+      border-radius: 20px;
+      height:30px;
+      width:300px;
+      padding:20px;
+      margin-left: 30px;
+      border-color:#3D97E8;
+    }
+    input[type="password"]{
+      border-radius: 20px;
+      height:30px;
+      width:300px;
+      padding:20px;
+      margin-left: 30px;
+      border-color:#3D97E8;
+
+    }
+    .login-btn{
+      border-radius:20px;
+      height:50px;
+      width:100px;
+      padding:10px 15px;
+      margin-left:40px;
+      border: solid 2px #3D97E8;    
+      color:#3D97E8;
+      font-weight: bold;
+      font-size:20px;
+        
+    }
+    a{
+      margin-left: 10px;
+      color:#3D97E8;
+      font-weight: bold;
+      font-size:17px;
+    }
+    a:hover{
+      color:#0061FF;
+    }
+    .login-btn:hover{
+      color:white;
+      background-color:#3D97E8 ;
+    }
+    #buttons{
+      display: inline-block;
+    }
+  </style>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+              <h1>Welcome</h1>
+              <input type="text" placeholder="Name"/>
+              <input type="password" placeholder="Password"/>
+              <div id="buttons" class="m-auto text-center">
+                 
+                  <a href="health.html" style="text-decoration:none;" class="login-btn">Login</a>
+                  <a href="sign.html" style="text-decoration:none;">Sign Up <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4"></div>
+      </div>
+    </div>
+    </section>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+         <script src="js/wow.min.js"></script>
+          <script>new WOW().init();</script>
+  </body>
+</html>
